@@ -17,3 +17,4 @@ class Post(models.Model): #django model(database)
 
     def __str__(self): #check diff with __init__
         return self.title
+    
